@@ -61,16 +61,6 @@ docs/                     # Decisiones y comprobaciones
 
 Los estilos de cada componente viven junto a su `.tsx`. Se usa BEM (`site-header__link--active`); `container`, `text-link` y `button-link` son bloques compartidos. No se usa Tailwind ni el HTML exportado como código de producción.
 
-## Completar información real
-
-- **Perfil, contacto y CV:** editar `src/features/profile/profile.data.ts`.
-- **Cuatro proyectos:** editar `src/features/projects/projects.data.ts`. Home, listado, fichas y CV usan estos mismos registros.
-- **PDF:** agregar el archivo en `public/` (crear la carpeta si hace falta) y establecer `cvUrl`, por ejemplo `/cv.pdf`.
-- **Imágenes reales:** agregar archivos en `src/assets/` e importarlos en los datos del proyecto.
-
-Los valores `null` y las listas vacías representan pendientes. No sustituirlos por logros, fechas ni enlaces inventados. Al confirmar una ficha, cambiar `contentStatus` a `confirmed`.
-
-KALI, el rol Frontend Developer y sus fechas 2026–presente provienen de la maqueta y aún requieren confirmación. El nombre de ejemplo del documento de diseño no se ha utilizado como identidad personal. Los enlaces externos y la descarga solo aparecen cuando tienen una URL real.
 
 ## Referencia y validación
 

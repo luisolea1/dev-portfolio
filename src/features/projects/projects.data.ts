@@ -19,7 +19,7 @@ export const projects: readonly Project[] = [
     ...pendingContent,
     slug: 'kali',
     number: '01',
-    name: 'KALI',
+    name: 'PROYECTO 01',
     role: 'Frontend Developer',
     startYear: 2026,
     endYear: 'present',
