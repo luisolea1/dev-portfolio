@@ -1,0 +1,21 @@
+:root {
+  color-scheme: dark;
+  --color-background: #131313;
+  --color-surface: #181818;
+  --color-surface-raised: #222222;
+  --color-text: #e5e2e1;
+  --color-text-secondary: #a3a3a3;
+  --color-text-muted: #8f8f8f;
+  --color-border: #303030;
+  --color-accent: #ff6a2b;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+  --content-width: 90rem;
+  --page-gutter: 1.25rem;
+  --radius: 0.25rem;
+  --transition: 180ms ease;
+}
+
+@media (min-width: 75rem) {
+  :root { --page-gutter: 3rem; }
+}

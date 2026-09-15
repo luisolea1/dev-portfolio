@@ -1,0 +1,13 @@
+.cv-page { padding-bottom: 5rem; }
+.cv-page__header { display: flex; align-items: flex-start; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
+.cv-page__dot { color: var(--color-accent); }
+.cv-page__pending { color: var(--color-text-secondary); font: 0.875rem/1.7 var(--font-mono); }
+.cv-page__section { display: grid; gap: 1.5rem; padding-block: 2.5rem; border-top: 1px solid var(--color-border); }
+.cv-page__section-title { font-size: 1.5rem; font-weight: 500; line-height: 1.3; letter-spacing: -0.02em; }
+.cv-page__experience { display: grid; gap: 2.5rem; }
+.cv-page__project-name { font-size: 1.125rem; line-height: 1.5; font-weight: 500; }
+.cv-page__project-name a { text-decoration-color: var(--color-border); }
+.cv-page__project-name a:hover { color: var(--color-accent); }
+.cv-page__position p { color: var(--color-text-secondary); }
+.cv-page__period { margin-top: 0.25rem; font: 0.8125rem/1.8 var(--font-mono); }
+@media (min-width: 48rem) { .cv-page__section { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 2.5rem; } }
