@@ -4,7 +4,7 @@ Primera implementación local con **React + Vite + TypeScript, React Router y CS
 
 ## Ejecutar
 
-Requiere Node.js **22.12 o superior** y npm.
+Requiere Node.js **24.x** y npm, la misma versión principal configurada para Vercel. Si usas nvm, ejecuta `nvm install` y `nvm use` en la raíz del proyecto; `.nvmrc` selecciona Node 24.
 
 ```sh
 npm ci
@@ -20,7 +20,7 @@ npm run build     # TypeScript + compilación de producción en dist/
 npm run preview   # Servir la compilación de producción localmente
 ```
 
-Los tests usan el soporte de TypeScript de Node (`--experimental-strip-types`); Node 22 puede mostrar una advertencia de función experimental. No se necesita un runner adicional.
+Los tests usan el soporte de TypeScript de Node (`--experimental-strip-types`). No se necesita un runner adicional.
 
 ## Rutas
 
@@ -69,6 +69,10 @@ Los estilos de cada componente viven junto a su `.tsx`. Se usa BEM (`site-header
 - [Comprobaciones realizadas](docs/verification.md).
 - Documentación oficial: [Vite](https://vite.dev/guide/) y [React Router](https://reactrouter.com/start/declarative/installation).
 
-## Publicación futura
+## Desplegar en Vercel
 
-Esta entrega permanece en local. `dist/` es la salida estática. Al publicar más adelante, el servidor debe devolver `index.html` para rutas de la aplicación como `/proyectos/kali`, conservando el servicio normal de archivos estáticos (fallback SPA). Vite ya permite abrir y recargar esas rutas en desarrollo y preview. No se ha configurado ni ejecutado un despliegue.
+El proyecto está preparado para Vercel mediante `vercel.json`. La configuración define Vite, instalación con `npm ci`, compilación con `npm run build` y salida estática en `dist/`. Incluye la regla para abrir y recargar rutas de React Router como `/proyectos/kali`.
+
+Para publicarlo, importa `luisolea1/dev-portfolio` desde GitHub en Vercel con directorio raíz `.` y Node **24.x**. Los commits de configuración deben estar en GitHub antes de importarlo. No se necesitan variables de entorno.
+
+Consulta la [guía de despliegue y comprobación](docs/vercel.md) para los pasos completos y la alternativa con Vercel CLI. La preparación se ha realizado en local; no se ha creado un despliegue.
