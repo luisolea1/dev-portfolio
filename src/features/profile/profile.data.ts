@@ -25,4 +25,4 @@ export const profile: Profile = {
   skills: [],
 }
 
-export const displayName = profile.name ?? '[NOMBRE]'
+export const displayName = profile.name ?? 'Luis'
