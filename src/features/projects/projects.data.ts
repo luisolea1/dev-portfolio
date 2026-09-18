@@ -61,6 +61,8 @@ export const projects: readonly Project[] = [
     ],
     outcome: 'Completé el proyecto desde el diseño inicial hasta su despliegue en producción en menos de una semana, entre el 17 y el 20 de agosto de 2026.',
     technologies: ['React', 'Vite', 'JavaScript', 'React Router', 'API REST', 'Fetch', 'HTML5', 'CSS3', 'BEM', 'Git', 'Oxlint', 'Vercel'],
+    liveUrl: 'https://tv-explorer-frontend.vercel.app/',
+    repositoryUrl: 'https://github.com/luisolea1/tv-explorer-frontend',
     visual: 'chart',
     image: null,
     imageAlt: null,
