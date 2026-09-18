@@ -26,8 +26,11 @@ export const projects: readonly Project[] = [
     summary: 'Diseñé, desarrollé y desplegué el sitio web responsive de Constructora KALI.',
     context: 'Asumí la responsabilidad completa del diseño visual, la experiencia de usuario y la implementación frontend.',
     contributions: [
-      'Construí el sitio con React, Vite, JavaScript y CSS mediante componentes reutilizables y una arquitectura basada en datos.',
-      'Implementé layouts responsive, centralización del contenido, carga dinámica y optimización de imágenes, lazy loading, mejoras de accesibilidad y navegación por teclado.',
+      'Creé la interfaz y adapté la experiencia para computadoras, tabletas y dispositivos móviles.',
+      'Desarrollé el sitio con React, Vite, JavaScript y CSS mediante componentes reutilizables y una arquitectura basada en datos.',
+      'Centralicé la información de los proyectos para facilitar las actualizaciones de contenido e implementé la carga dinámica de imágenes.',
+      'Mejoré el rendimiento y la usabilidad mediante optimización de imágenes, lazy loading, HTML semántico, accesibilidad y navegación por teclado.',
+      'Desplegué el sitio en producción y continúo realizando actualizaciones y mantenimiento ocasional.',
     ],
     outcome: 'El cliente aprobó la propuesta después de una sola ronda de ajustes y continúa confiándome actualizaciones y mantenimiento ocasional.',
     technologies: ['React', 'Vite', 'JavaScript', 'HTML5', 'CSS3', 'Git', 'Diseño web responsive'],
