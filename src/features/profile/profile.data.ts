@@ -27,7 +27,7 @@ export const profile: Profile = {
   introduction: null,
   email: 'luisolea653@gmail.com',
   linkedInUrl: 'https://www.linkedin.com/in/luiss-olea/',
-  githubUrl: null,
+  githubUrl: 'https://github.com/luisolea1',
   cvUrl: cvPdf,
   cvSummary: 'Desarrollador Frontend Junior que disfruta transformar diseños e ideas visuales en interfaces responsivas para sitios comerciales y catálogos digitales. Construyo aplicaciones con React utilizando componentes reutilizables, navegación fluida e integración de APIs REST. Trabajo con JavaScript, HTML5, CSS3, Vite y Git, cuidando la accesibilidad y el rendimiento.',
   education: [

@@ -10,6 +10,7 @@ export function SiteFooter() {
         <nav className="site-footer__links" aria-label="Enlaces de contacto y redes">
           {profile.email ? <a href={`mailto:${profile.email}`}>{profile.email}</a> : <span className="site-footer__pending" title="Correo pendiente de completar">[EMAIL]</span>}
           {profile.linkedInUrl ? <a href={profile.linkedInUrl} target="_blank" rel="noreferrer">LinkedIn</a> : <span className="site-footer__pending" title="Perfil de LinkedIn pendiente de completar">LinkedIn · pendiente</span>}
+          {profile.githubUrl && <a href={profile.githubUrl} target="_blank" rel="noreferrer">GitHub</a>}
           <Link to="/cv">CV</Link>
         </nav>
       </div>
