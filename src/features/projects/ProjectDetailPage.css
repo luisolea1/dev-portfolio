@@ -9,6 +9,8 @@
 .project-detail__datum dt { color: var(--color-text-muted); margin-bottom: 0.25rem; }
 .project-detail__datum dd { margin: 0; overflow-wrap: anywhere; }
 .project-detail__figure { max-width: 56rem; margin-inline: auto; }
+.project-detail__figure .project-visual--image { aspect-ratio: auto; }
+.project-detail__figure .project-visual__image { height: auto; }
 .project-detail__caption { margin-top: 0.75rem; font: 0.75rem/1.8 var(--font-mono); color: var(--color-text-secondary); }
 .project-detail__body { margin-top: 3.5rem; }
 .project-detail__section { display: grid; gap: 1rem; border-top: 1px solid var(--color-border); padding-block: 2.5rem; }

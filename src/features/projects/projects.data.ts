@@ -1,4 +1,6 @@
-import kaliPreview from '../../assets/kali-preview.png'
+import aroundCover from '../../assets/around-cover.webp'
+import kaliCover from '../../assets/kali-cover.webp'
+import tvExplorerCover from '../../assets/tv-explorer-cover.webp'
 import type { Project } from './project.types'
 
 const pendingContent = {
@@ -37,8 +39,10 @@ export const projects: readonly Project[] = [
     liveUrl: 'https://www.kaliconstructora.com/',
     repositoryUrl: 'https://github.com/luisolea1/kali-constructora',
     visual: 'image',
-    image: kaliPreview,
-    imageAlt: 'Mockup de referencia de KALI: interfaz oscura con acentos naranjas',
+    image: kaliCover,
+    imageAlt: 'Portada de Constructora KALI con su propuesta de construcción y una vivienda con piscina',
+    imageWidth: 1604,
+    imageHeight: 1250,
   },
   {
     ...pendingContent,
@@ -63,9 +67,11 @@ export const projects: readonly Project[] = [
     technologies: ['React', 'Vite', 'JavaScript', 'React Router', 'API REST', 'Fetch', 'HTML5', 'CSS3', 'BEM', 'Git', 'Oxlint', 'Vercel'],
     liveUrl: 'https://tv-explorer-frontend.vercel.app/',
     repositoryUrl: 'https://github.com/luisolea1/tv-explorer-frontend',
-    visual: 'chart',
-    image: null,
-    imageAlt: null,
+    visual: 'image',
+    image: tvExplorerCover,
+    imageAlt: 'Portada de TV Explorer con la presentación de la aplicación y el botón Explorar series',
+    imageWidth: 1684,
+    imageHeight: 1090,
   },
   {
     ...pendingContent,
@@ -89,9 +95,11 @@ export const projects: readonly Project[] = [
     technologies: ['React', 'JavaScript', 'Node.js', 'Express', 'MongoDB', 'API REST', 'JWT', 'Git', 'PM2', 'Google Cloud'],
     liveUrl: 'https://aroundtw.mooo.com/signin',
     repositoryUrl: 'https://github.com/luisolea1/web_project_api_full',
-    visual: 'palette',
-    image: null,
-    imageAlt: null,
+    visual: 'image',
+    image: aroundCover,
+    imageAlt: 'Interfaz de Around The U.S. con el perfil de usuario y tarjetas de Bariloche y Francia',
+    imageWidth: 939,
+    imageHeight: 885,
   },
   {
     ...pendingContent,

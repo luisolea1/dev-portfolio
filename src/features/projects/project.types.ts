@@ -17,5 +17,7 @@ export interface Project {
   visual: ProjectVisual
   image: string | null
   imageAlt: string | null
+  imageWidth?: number
+  imageHeight?: number
   contentStatus: 'pending-confirmation' | 'confirmed'
 }

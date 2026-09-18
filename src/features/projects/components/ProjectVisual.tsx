@@ -5,7 +5,7 @@ export function ProjectVisual({ project }: { project: Project }) {
   return (
     <div className={`project-visual project-visual--${project.visual}`}>
       {project.image ? (
-        <img className="project-visual__image" src={project.image} alt={project.imageAlt ?? ''} width="1200" height="896" loading="lazy" />
+        <img className="project-visual__image" src={project.image} alt={project.imageAlt ?? ''} width={project.imageWidth} height={project.imageHeight} loading="lazy" />
       ) : (
         <div className="project-visual__illustration" aria-hidden="true">
           {project.visual === 'chart' && <div className="project-visual__chart">

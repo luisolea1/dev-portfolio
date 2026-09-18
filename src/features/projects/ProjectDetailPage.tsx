@@ -24,7 +24,7 @@ export function ProjectDetailPage() {
       </dl>
       <figure className="project-detail__figure">
         <ProjectVisual project={project} />
-        {project.contentStatus === 'pending-confirmation' && <figcaption className="project-detail__caption">Referencia visual provisional · contenido pendiente de confirmar.</figcaption>}
+        {!project.image && project.contentStatus === 'pending-confirmation' && <figcaption className="project-detail__caption">Referencia visual provisional · contenido pendiente de confirmar.</figcaption>}
       </figure>
       <div className="project-detail__body">
         <section className="project-detail__section" aria-labelledby="project-context">
