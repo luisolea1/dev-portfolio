@@ -34,6 +34,8 @@ export const projects: readonly Project[] = [
     ],
     outcome: 'El cliente aprobó la propuesta después de una sola ronda de ajustes y continúa confiándome actualizaciones y mantenimiento ocasional.',
     technologies: ['React', 'Vite', 'JavaScript', 'HTML5', 'CSS3', 'Git', 'Diseño web responsive'],
+    liveUrl: 'https://www.kaliconstructora.com/',
+    repositoryUrl: 'https://github.com/luisolea1/kali-constructora',
     visual: 'image',
     image: kaliPreview,
     imageAlt: 'Mockup de referencia de KALI: interfaz oscura con acentos naranjas',
