@@ -79,8 +79,8 @@ export const projects: readonly Project[] = [
     number: '03',
     name: 'Around The U.S.',
     role: 'Full-stack Developer',
-    startYear: null,
-    endYear: null,
+    startYear: 2026,
+    endYear: 2026,
     summary: 'Desarrollé el frontend y el backend de Around The U.S.',
     context: 'Una aplicación web full-stack basada en un diseño proporcionado por TripleTen.',
     contributions: [
