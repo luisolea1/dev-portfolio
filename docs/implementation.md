@@ -9,7 +9,7 @@ Home adaptable y estructura de navegación para Home, Proyectos, cuatro fichas e
 | Referencia / ajuste | Implementación |
 | --- | --- |
 | Home refinado | Referencia principal por ser la composición más específica y reciente del ZIP. |
-| Fondo y acento | `#131313`, `#E5E2E1`, `#A3A3A3`, bordes `#303030` y naranja `#FF6A2B`. |
+| Fondo y acento | `#131313`, `#E5E2E1`, `#A3A3A3`, bordes `#303030` y azul `#4169E1`. |
 | Tipografía | Inter para titulares/texto y Space Mono para navegación/metadatos; fuentes empaquetadas localmente. |
 | Avatar | Eliminado; identidad textual y composición retro del hero conservadas. |
 | Reloj | Dentro de la cabecera compartida, centrado con tres columnas iguales desde 1200 px. Bajo identidad/menú en pantallas menores. |
