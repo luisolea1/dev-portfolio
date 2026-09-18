@@ -46,4 +46,4 @@ export const profile: Profile = {
   skills: ['Desarrollo frontend', 'React', 'Vite', 'HTML5', 'CSS3', 'JavaScript (ES6+)', 'Git', 'GitHub', 'APIs REST', 'Diseño web responsive', 'React Router'],
 }
 
-export const displayName = profile.name ?? 'Luis'
+export const displayName = profile.name ?? ' Luis Olea'
