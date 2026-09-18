@@ -12,17 +12,25 @@ const pendingContent = {
   contentStatus: 'pending-confirmation' as const,
 }
 
-// Nombres, rol y fechas conservados del Home de Stitch; aún por confirmar.
+// Rol y fechas conservados del Home de Stitch; aún por confirmar.
 // Las ilustraciones representan la referencia visual, no resultados del proyecto.
 export const projects: readonly Project[] = [
   {
     ...pendingContent,
     slug: 'kali',
     number: '01',
-    name: 'PROYECTO 01',
+    name: 'KALI',
     role: 'Frontend Developer',
     startYear: 2026,
     endYear: 'present',
+    summary: 'Diseñé, desarrollé y desplegué el sitio web responsive de Constructora KALI.',
+    context: 'Asumí la responsabilidad completa del diseño visual, la experiencia de usuario y la implementación frontend.',
+    contributions: [
+      'Construí el sitio con React, Vite, JavaScript y CSS mediante componentes reutilizables y una arquitectura basada en datos.',
+      'Implementé layouts responsive, centralización del contenido, carga dinámica y optimización de imágenes, lazy loading, mejoras de accesibilidad y navegación por teclado.',
+    ],
+    outcome: 'El cliente aprobó la propuesta después de una sola ronda de ajustes y continúa confiándome actualizaciones y mantenimiento ocasional.',
+    technologies: ['React', 'Vite', 'JavaScript', 'HTML5', 'CSS3', 'Git', 'Diseño web responsive'],
     visual: 'image',
     image: kaliPreview,
     imageAlt: 'Mockup de referencia de KALI: interfaz oscura con acentos naranjas',
