@@ -108,8 +108,8 @@ export const projects: readonly Project[] = [
     number: '04',
     name: 'Homeland',
     role: 'Frontend Developer',
-    startYear: null,
-    endYear: null,
+    startYear: 2026,
+    endYear: 2026,
     summary: 'Desarrollé Homeland, un sitio web responsivo que presenta las ciudades de origen de nuestros colegas en línea.',
     context: 'Fue uno de mis primeros proyectos de desarrollo web. Lo utilicé para practicar la construcción de interfaces adaptables, la organización del código y buenas prácticas de desarrollo.',
     contributions: [
