@@ -1,4 +1,5 @@
 import aroundCover from '../../assets/around-cover.webp'
+import homelandCover from '../../assets/homeland-cover.png'
 import kaliCover from '../../assets/kali-cover.webp'
 import tvExplorerCover from '../../assets/tv-explorer-cover.webp'
 import type { Project } from './project.types'
@@ -14,8 +15,8 @@ const pendingContent = {
   contentStatus: 'pending-confirmation' as const,
 }
 
-// Rol y fechas conservados del Home de Stitch; aún por confirmar.
-// Las ilustraciones representan la referencia visual, no resultados del proyecto.
+// Los datos pendientes se conservan como null hasta confirmarlos.
+// Las portadas son capturas proporcionadas por el autor.
 export const projects: readonly Project[] = [
   {
     ...pendingContent,
@@ -105,13 +106,29 @@ export const projects: readonly Project[] = [
     ...pendingContent,
     slug: 'proyecto-04',
     number: '04',
-    name: null,
+    name: 'Homeland',
     role: 'Frontend Developer',
     startYear: null,
     endYear: null,
-    visual: 'terminal',
-    image: null,
-    imageAlt: null,
+    summary: 'Desarrollé Homeland, un sitio web responsivo que presenta las ciudades de origen de nuestros colegas en línea.',
+    context: 'Fue uno de mis primeros proyectos de desarrollo web. Lo utilicé para practicar la construcción de interfaces adaptables, la organización del código y buenas prácticas de desarrollo.',
+    contributions: [
+      'Estructuré el contenido con HTML5 semántico para crear una página clara y accesible.',
+      'Construí un diseño adaptable con CSS, Flexbox y posicionamiento de elementos.',
+      'Organicé los estilos con la metodología BEM para mantener un código CSS claro y escalable.',
+      'Trabajé con un diseño en Figma como referencia visual para desarrollar la interfaz.',
+      'Gestioné el control de versiones con Git y GitHub.',
+      'Desplegué el proyecto en GitHub Pages para hacerlo accesible en línea.',
+    ],
+    outcome: 'Publiqué el sitio en GitHub Pages y lo conservo como una muestra de mis primeros pasos en desarrollo web. Continuaré mejorándolo para practicar TypeScript e incorporar las nuevas herramientas que vaya aprendiendo.',
+    technologies: ['HTML5', 'CSS3', 'Flexbox', 'Position', 'BEM', 'Figma', 'Git', 'GitHub', 'GitHub Pages', 'Diseño web responsive'],
+    liveUrl: 'https://luisolea1.github.io/web_project_homeland/',
+    repositoryUrl: 'https://github.com/luisolea1/web_project_homeland',
+    visual: 'image',
+    image: homelandCover,
+    imageAlt: 'Portada de Homeland con el título De patria a patria y una fotografía costera en blanco y negro',
+    imageWidth: 1121,
+    imageHeight: 764,
   },
 ]
 
