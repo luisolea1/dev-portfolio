@@ -93,6 +93,7 @@ export const projects: readonly Project[] = [
       'Integré el frontend y el backend para gestionar usuarios, autenticación y tarjetas.',
       'Desplegué el servidor en una máquina virtual de Google Cloud y utilicé PM2 para mantener la aplicación disponible en producción.',
     ],
+    outcome: 'Logré integrar el frontend y el backend en una aplicación con autenticación y gestión de perfiles y tarjetas. El proyecto me permitió practicar el flujo completo de desarrollo, desde la interfaz y la API REST hasta la persistencia en MongoDB y el despliegue del servidor en Google Cloud con PM2.',
     technologies: ['React', 'JavaScript', 'Node.js', 'Express', 'MongoDB', 'API REST', 'JWT', 'Git', 'PM2', 'Google Cloud'],
     liveUrl: 'https://aroundtw.mooo.com/signin',
     repositoryUrl: 'https://github.com/luisolea1/web_project_api_full',
