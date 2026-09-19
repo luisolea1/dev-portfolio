@@ -10,15 +10,8 @@ Fecha: **15 de septiembre de 2026**. Comprobación local en Chrome, con el servi
 | `npm run build` | Correcto, salida generada en `dist/`. |
 | `npm test` | 5 pruebas correctas. |
 | `env TZ=Asia/Tokyo npm test` | Las mismas 5 pruebas correctas usando otra zona del equipo. |
-| Integridad de referencias | ZIP idéntico al proporcionado y sus 7 archivos extraídos idénticos byte a byte. |
 
 Las pruebas del reloj verifican hora de CDMX, segundos, ceros iniciales, cambio de día a medianoche, mediodía y obtención del desfase histórico desde la zona IANA. No hay dependencia de un desfase de seis horas escrito a mano.
-
-SHA-256 del ZIP original y su copia:
-
-```text
-96ff9ff8ee45b5da2875d30b5b4dd4168fa00795ea9636a93527b163ea240493
-```
 
 ## Revisión visual y adaptable
 
