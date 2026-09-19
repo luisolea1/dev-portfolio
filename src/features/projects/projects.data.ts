@@ -135,4 +135,7 @@ export const projects: readonly Project[] = [
 
 export const getProject = (slug: string) => projects.find((project) => project.slug === slug)
 export const getProjectName = (project: Project) => project.name ?? `[PROYECTO ${project.number}]`
-export const getProjectPeriod = (project: Project) => `${project.startYear ?? '[AÑO DE INICIO]'} – ${project.endYear === 'present' ? 'presente' : project.endYear ?? '[AÑO DE FIN]'}`
+export const getProjectPeriod = (project: Project) => {
+  if (project.startYear !== null && project.startYear === project.endYear) return String(project.startYear)
+  return `${project.startYear ?? '[AÑO DE INICIO]'} – ${project.endYear === 'present' ? 'presente' : project.endYear ?? '[AÑO DE FIN]'}`
+}
