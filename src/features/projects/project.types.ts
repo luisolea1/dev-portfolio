@@ -19,5 +19,6 @@ export interface Project {
   imageAlt: string | null
   imageWidth?: number
   imageHeight?: number
+  imagePosition?: 'left top' | 'center top'
   contentStatus: 'pending-confirmation' | 'confirmed'
 }

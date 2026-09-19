@@ -129,6 +129,7 @@ export const projects: readonly Project[] = [
     imageAlt: 'Portada de Homeland con el título De patria a patria y una fotografía costera en blanco y negro',
     imageWidth: 1121,
     imageHeight: 764,
+    imagePosition: 'center top',
   },
 ]
 
