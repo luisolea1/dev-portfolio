@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { displayName, profile } from '../profile/profile.data'
 import { projects, getProjectName, getProjectPeriod } from '../projects/projects.data'
+import { SkillsGrid } from './SkillsGrid'
 import './CvPage.css'
 
 export function CvPage() {
@@ -38,11 +39,8 @@ export function CvPage() {
           </div>)}
         </div>
       </section>
-      <section className="cv-page__section" aria-labelledby="cv-skills">
-        <h2 id="cv-skills" className="cv-page__section-title">Habilidades</h2>
-        <ul className="cv-page__skills cv-page__text">
-          {profile.skills.map((skill) => <li key={skill}>{skill}</li>)}
-        </ul>
+      <section id="cv-skills" className="cv-page__section cv-page__section--skills" aria-labelledby="skills-abilities skills-stacks skills-tools">
+        <SkillsGrid />
       </section>
     </div>
   )

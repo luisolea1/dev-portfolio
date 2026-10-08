@@ -11,6 +11,6 @@
 .cv-page__position p { color: var(--color-text-secondary); }
 .cv-page__text { color: var(--color-text-secondary); overflow-wrap: anywhere; }
 .cv-page__education-details { margin-top: 0.75rem; }
-.cv-page__skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: 0.5rem 2rem; margin: 0; padding-left: 1.25rem; }
 .cv-page__period { margin-top: 0.25rem; font: 0.8125rem/1.8 var(--font-mono); }
 @media (min-width: 48rem) { .cv-page__section { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 2.5rem; } }
+.cv-page__section--skills { grid-template-columns: minmax(0, 1fr); }

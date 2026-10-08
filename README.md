@@ -56,7 +56,7 @@ scripts/          # Utilidades de desarrollo
 docs/             # Documentación técnica
 ```
 
-Los datos personales están en `src/features/profile/profile.data.ts`. Las fichas de proyectos se mantienen en `src/features/projects/projects.data.ts` y se reutilizan en Inicio, Proyectos y CV.
+Los datos personales están en `src/features/profile/profile.data.ts`. Las habilidades, tecnologías y herramientas del CV se mantienen en `src/features/cv/skills.data.ts`, con iconos SVG de Simple Icons, Devicons y Lucide mediante React Icons. Las fichas de proyectos se mantienen en `src/features/projects/projects.data.ts` y se reutilizan en Inicio, Proyectos y CV.
 
 ## Despliegue
 

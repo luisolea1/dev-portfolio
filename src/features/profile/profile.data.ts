@@ -17,7 +17,6 @@ interface Profile {
   cvUrl: string | null
   cvSummary: string | null
   education: readonly Education[]
-  skills: readonly string[]
 }
 
 // null = información real pendiente. No inferir identidad ni contactos de las referencias.
@@ -43,7 +42,6 @@ export const profile: Profile = {
       period: 'Enero de 2022 – Diciembre de 2025',
     },
   ],
-  skills: ['Desarrollo frontend', 'React', 'Vite', 'HTML5', 'CSS3', 'JavaScript (ES6+)', 'Git', 'GitHub', 'APIs REST', 'Diseño web responsive', 'React Router'],
 }
 
 export const displayName = profile.name ?? ' Luis Olea'
