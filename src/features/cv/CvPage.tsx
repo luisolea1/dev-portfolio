@@ -18,6 +18,9 @@ export function CvPage() {
         <h2 id="cv-profile" className="cv-page__section-title">Perfil</h2>
         <p className="cv-page__text">{profile.cvSummary ?? '[RESUMEN PROFESIONAL]'}</p>
       </section>
+      <section id="cv-skills" className="cv-page__section cv-page__section--skills" aria-labelledby="skills-abilities skills-stacks skills-tools">
+        <SkillsGrid />
+      </section>
       <section className="cv-page__section" aria-labelledby="cv-experience">
         <h2 id="cv-experience" className="cv-page__section-title">Experiencia</h2>
         <div className="cv-page__experience">
@@ -35,12 +38,9 @@ export function CvPage() {
             <h3 className="cv-page__education-title">{education.title}</h3>
             <p className="cv-page__text">{education.institution}</p>
             <p className="cv-page__period cv-page__text">{education.period}</p>
-            {education.details && <p className="cv-page__education-details cv-page__text">Tecnologías: {education.details}</p>}
+            {education.details && <p className="cv-page__education-details cv-page__text">{education.details}</p>}
           </div>)}
         </div>
-      </section>
-      <section id="cv-skills" className="cv-page__section cv-page__section--skills" aria-labelledby="skills-abilities skills-stacks skills-tools">
-        <SkillsGrid />
       </section>
     </div>
   )

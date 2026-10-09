@@ -28,13 +28,13 @@ export const profile: Profile = {
   linkedInUrl: 'https://www.linkedin.com/in/luiss-olea/',
   githubUrl: 'https://github.com/luisolea1',
   cvUrl: cvPdf,
-  cvSummary: 'Desarrollador Frontend Junior que disfruta transformar diseños e ideas visuales en interfaces responsivas para sitios comerciales y catálogos digitales. Construyo aplicaciones con React utilizando componentes reutilizables, navegación fluida e integración de APIs REST. Trabajo con JavaScript, HTML5, CSS3, Vite y Git, cuidando la accesibilidad y el rendimiento.',
+  cvSummary: 'Desarrollador Frontend Junior que disfruta transformar diseños e ideas visuales en interfaces responsivas para sitios comerciales y catálogos digitales. También soy licenciado en Administración de las Organizaciones, una formación que complementa mi experiencia trabajando con clientes y coordinando equipos. Construyo aplicaciones con React utilizando componentes reutilizables, navegación fluida e integración de APIs REST.',
   education: [
     {
       title: 'Bootcamp en Desarrollo Full Stack',
       institution: 'TripleTen',
       period: '2025 – 2026',
-      details: 'HTML, CSS, Git, GitHub, JavaScript, React, Node.js, Express y MongoDB.',
+      details: 'Programa intensivo de 1 año con enfoque en desarrollo web y aplicaciones. Aprendizaje práctico mediante proyectos individuales y colaborativos, con énfasis en la resolución de problemas y la implementación de buenas prácticas de desarrollo.',
     },
     {
       title: 'Licenciatura en Administración de las Organizaciones',
