@@ -37,7 +37,7 @@ Abre la dirección que indica Vite, normalmente `http://127.0.0.1:5173`. No se n
 ## Secciones
 
 - **Inicio:** presentación y experiencia en proyectos.
-- **Proyectos:** KALI, TV Explorer, Around The U.S. y Homeland, con sus tecnologías, contribuciones, resultados y enlaces.
+- **Proyectos:** Portafolio Fotográfico, KALI, TV Explorer, Around The U.S. y Homeland, con sus tecnologías, contribuciones, resultados y enlaces.
 - **CV:** perfil, experiencia, formación, habilidades y descarga del currículum.
 - **Contacto:** correo electrónico, LinkedIn y GitHub.
 

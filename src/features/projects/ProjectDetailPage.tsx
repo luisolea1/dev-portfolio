@@ -14,7 +14,6 @@ export function ProjectDetailPage() {
 
       <header className="page-heading">
         <Link className="text-link" to="/proyectos">← Volver a proyectos</Link>
-        <p className="page-heading__eyebrow project-detail__eyebrow">Proyecto / {project.number}</p>
         <h1 className="page-heading__title">{getProjectName(project)}</h1>
         <p className="page-heading__description">{project.summary ?? '[DESCRIPCIÓN DEL PROYECTO]'}</p>
       </header>

@@ -1,6 +1,7 @@
 import aroundCover from '../../assets/around-cover.webp'
 import homelandCover from '../../assets/homeland-cover.png'
 import kaliCover from '../../assets/kali-cover.webp'
+import quetzinCuevasCover from '../../assets/quetzin-cuevas-cover.webp'
 import tvExplorerCover from '../../assets/tv-explorer-cover.webp'
 import type { Project } from './project.types'
 
@@ -20,8 +21,34 @@ const pendingContent = {
 export const projects: readonly Project[] = [
   {
     ...pendingContent,
-    slug: 'kali',
+    slug: 'quetzin-cuevas',
     number: '01',
+    name: 'Portafolio Fotográfico',
+    role: 'Frontend Developer',
+    startYear: 2026,
+    endYear: 2026,
+    summary: 'Desarrollé el portfolio de fotografía y producción audiovisual de Quetzin Cuevas.',
+    context: 'Desarrollé el portfolio de fotografía y producción audiovisual de Quetzin Cuevas para presentar sus proyectos, servicios y perfil profesional. Me encargué de adaptar las referencias visuales a su identidad, resolver la experiencia en distintos dispositivos e implementar el frontend.',
+    contributions: [
+      'Desarrollé un portfolio adaptable con React y Vite, componentes reutilizables y contenido centralizado para facilitar las actualizaciones.',
+      'Integré animaciones y efectos 3D, optimicé la carga de imágenes e implementé mejoras de accesibilidad.',
+      'Configuré el prerenderizado y el SEO, y preparé el sitio para su publicación estática en Vercel.',
+    ],
+    outcome: 'Logré un portfolio fácil de actualizar, reduje más del 90 % el peso de las imágenes de los carruseles y mejoré la puntuación móvil de Inicio de 51 a 92 en Lighthouse, según pruebas de laboratorio.',
+    technologies: ['React', 'JavaScript', 'Vite', 'React Router', 'CSS Modules', 'BEM', 'GSAP', 'ScrollTrigger', 'Lenis', 'Three.js', 'CSS 3D', 'JSON', 'Sharp', 'WebP', 'Lighthouse', 'pnpm', 'Vercel'],
+    liveUrl: 'https://quetzin-portfolio.vercel.app/',
+    repositoryUrl: 'https://github.com/luisolea1/quetzin-portfolio',
+    visual: 'image',
+    image: quetzinCuevasCover,
+    imageAlt: 'Portada del portfolio de Quetzin Cuevas con su nombre y fotografías de modelaje, paisajes, producto y música',
+    imageWidth: 992,
+    imageHeight: 1110,
+    contentStatus: 'confirmed',
+  },
+  {
+    ...pendingContent,
+    slug: 'kali',
+    number: '02',
     name: 'KALI',
     role: 'Frontend Developer',
     startYear: 2026,
@@ -48,7 +75,7 @@ export const projects: readonly Project[] = [
   {
     ...pendingContent,
     slug: 'proyecto-02',
-    number: '02',
+    number: '03',
     name: 'TV Explorer',
     role: 'Frontend Developer',
     startYear: 2026,
@@ -77,7 +104,7 @@ export const projects: readonly Project[] = [
   {
     ...pendingContent,
     slug: 'proyecto-03',
-    number: '03',
+    number: '04',
     name: 'Around The U.S.',
     role: 'Full-stack Developer',
     startYear: 2026,
@@ -106,7 +133,7 @@ export const projects: readonly Project[] = [
   {
     ...pendingContent,
     slug: 'proyecto-04',
-    number: '04',
+    number: '05',
     name: 'Homeland',
     role: 'Frontend Developer',
     startYear: 2026,
